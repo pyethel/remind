@@ -1,0 +1,54 @@
+
+.blank_footer{
+  height: 100rpx;
+  width: 100%;
+  bottom: 0;
+}
+.plan_footer{
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+.plan_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.value{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.plan_item{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 90%;
+  border-bottom: 7rpx solid #ccc;
+}
+
+.btn{
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  width: 80%;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+
+.btns{
+  display: flex;
+  flex-direction: row;
+}
+.btn2{
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  max-width: 30%;
+  background-color: rgb(252, 126, 67);
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}

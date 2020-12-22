@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/create/create"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "提醒",
+    "navigationBarTextStyle":"white"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

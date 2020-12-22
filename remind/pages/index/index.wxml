@@ -1,0 +1,20 @@
+<view class="plan_main">
+    <block wx:if="{{List.length!==0}}">
+        <view class="plan_item" wx:for="{{List}}" wx:key="id">
+            <view class="value">{{index+1}}、日程描述 : {{item.jobDescription}}</view>
+            <view class="value">提醒时间 : {{item.jobTime}}</view>
+            <view class="btns">
+                <button class="btn2" bindtap="handleEdit" data-id="{{item.id}}">编辑</button>
+                <button class="btn2" bindtap="handleDelete" data-id="{{item.id}}">删除</button>
+            </view>
+        </view>
+    </block>
+    <block wx:else>
+        <view class="blank_footer"></view>
+        <view>您最近还没有创建日程</view>
+    </block>
+</view>
+<view class="blank_footer"></view>
+<view class="plan_footer">
+    <button class="btn" bindtap='handleCreate'>创建提醒</button>
+</view>
