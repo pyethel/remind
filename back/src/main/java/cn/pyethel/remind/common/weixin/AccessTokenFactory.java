@@ -15,8 +15,8 @@ import java.time.LocalDateTime;
  */
 public class AccessTokenFactory {
 
-    private final static String APP_ID = "wxd14ea32dcae0ae59";
-    private final static String APP_SECRET = "510eecdc47ddcf660c291ccb5b4d175e";
+    private final static String APP_ID = "xxx";
+    private final static String APP_SECRET = "xxx";
     private static volatile AccessToken accessToken = new AccessToken();
     private final static String URL = "https://api.weixin.qq.com/cgi-bin/token";
     private final static String PARAMS = "grant_type=client_credential&appid=" + APP_ID + "&secret=" + APP_SECRET;
